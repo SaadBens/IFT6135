@@ -1,0 +1,19 @@
+{
+  "batch_size": 128,
+  "model": "vit",
+  "layers": 2,
+  "block": "prenorm",
+  "epochs": 10,
+  "optimizer": "sgd",
+  "lr": 0.0003,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "exp_id": "03",
+  "log": false,
+  "log_dir": "logs",
+  "seed": 42,
+  "num_workers": 2,
+  "device": "cuda",
+  "progress_bar": false,
+  "print_every": 100
+}
